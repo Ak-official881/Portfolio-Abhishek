@@ -36,25 +36,24 @@ const Experience = () => {
         </div>
 
         {/* Experience Section */}
-        <div>
-          <div className="flex gap-10 bg-black bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <img 
-              src={zidioLogo} 
-              alt="Zidio Logo" 
-              className="bg-amber-50w-[50px] h-[50px] object-contain rounded-lg"
-            />
-            <span className="text-white">
-              <h2 className="leading-tight">Web Developer, Zidio</h2>
-              <p className="text-sm leading-tight font-thin">Jan 2025 - Present</p>
-              <ul className="text-sm p-2">
-                <li>- Working as Intern</li>
-                <li>- Web-Intern</li>
-              </ul>
-            </span>
-          </div>
+            <div className="w-full md:w-1/2 lg:w-2/5">
+      <div className="flex flex-col md:flex-row gap-4 bg-black bg-opacity-45 rounded-lg p-4 md:p-5 items-center">
+        <img
+          src={zidioLogo}
+          alt="Zidio Logo"
+          className="w-14 h-14 object-contain rounded-lg"
+        />
+        <div className="text-white text-center md:text-left">
+          <h2 className="text-base md:text-lg font-semibold">Web Developer, Zidio</h2>
+          <p className="text-xs md:text-sm font-thin">Jan 2025 - Present</p>
+          <ul className="text-xs md:text-sm mt-1 md:mt-2 space-y-1">
+            <li>- Working as Intern</li>
+            <li>- Web-Intern</li>
+          </ul>
         </div>
-
       </div>
+    </div>
+    </div>
     </div>
   );
 };
