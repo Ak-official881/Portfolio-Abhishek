@@ -2,7 +2,7 @@ import React from "react";
 import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { SiCplusplus, SiMongodb } from "react-icons/si";
 // Importing Image (Use this if the image is inside src/assets/)
-import zidioLogo from "../../assets/photo-C8q0KQHG.webp"; 
+import zidioLogo from "../../assets/photo-C8q0KQHG.png"; 
 
 const Experience = () => {
   return (
