@@ -13,7 +13,7 @@ const Home = () => {
           Tech Enthusiast | Web & Data Explorer | C++ & DSA Practitioner | Building cool projects! 🚀💻
         </p>
         <a
-          href="https://drive.google.com/file/d/1e0kIvJ5flvz_-zx0J4FW_sX61Pdf3zyP/view?usp=sharing"
+          href="https://drive.google.com/file/d/1J3K5BZxaB5d_nqdTcq1kfDOK4CXDKKj4/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
         >
