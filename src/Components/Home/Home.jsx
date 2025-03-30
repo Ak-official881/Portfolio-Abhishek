@@ -1,5 +1,7 @@
 import React from "react";
-import avatarImg from "../../assets/first-removebg-preview.png";
+// import avatarImg from "../../assets/first-removebg-preview.png";
+import avatarImg from "/src/assets/first-removebg-preview2.png";
+
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -22,9 +24,14 @@ const Home = () => {
           </button>
         </a>
       </div>
-      <div>
-        <img className="" src={avatarImg} alt="Avatar" />
-      </div>
+      <div className="flex justify-center items-center">
+  <img 
+    className="w-102 h-125 object-cover rounded-full shadow-lg" 
+    src={avatarImg} 
+    alt="Avatar" 
+  />
+</div>
+
     </div>
   );
 };
