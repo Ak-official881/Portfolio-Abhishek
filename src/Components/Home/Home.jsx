@@ -6,12 +6,14 @@ import TextChange from "../TextChange";
 
 const Home = () => {
   return (
-    <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
-      <div className="md:w-2/4 md:pt-10">
-        <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
+    <div className="text-white flex flex-col-reverse md:flex-row w-full justify-between items-center p-6 md:p-20 gap-10">
+      
+      {/* Left Section */}
+      <div className="md:w-2/4 text-center md:text-left">
+        <h1 className="text-2xl md:text-6xl font-bold leading-tight tracking-tighter">
           <TextChange />
         </h1>
-        <p className="text-sm md:text-2xl tracking-tight">
+        <p className="text-sm md:text-2xl tracking-tight mt-2 md:mt-4">
           Tech Enthusiast | Web & Data Explorer | C++ & DSA Practitioner | Building cool projects! 🚀💻
         </p>
         <a
@@ -19,19 +21,21 @@ const Home = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="mt-5 md:mt-10 text-black py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-white">
+          <button className="mt-5 md:mt-8 text-black py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-white">
             Resume View
           </button>
         </a>
       </div>
-      <div className="flex justify-center items-center">
-  <img 
-    className="w-102 h-125 object-cover rounded-full shadow-lg" 
-    src={avatarImg} 
-    alt="Avatar" 
-  />
-</div>
 
+      {/* Right Section (Image) */}
+      <div className="flex justify-center">
+        <img 
+          className="w-44 h-44 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 object-contain rounded-full shadow-lg" 
+          src={avatarImg} 
+          alt="Avatar" 
+        />
+      </div>
+      
     </div>
   );
 };
