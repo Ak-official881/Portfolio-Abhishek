@@ -1,12 +1,12 @@
 import React from "react";
 // import avatarImg from "../../assets/first-removebg-preview.png";
-import avatarImg from "/src/assets/first-removebg-preview2.png";
+import avatarImg from "/src/assets/pf.jpg";
 
 import TextChange from "../TextChange";
 
 const Home = () => {
   return (
-    <div className="text-white flex flex-col-reverse md:flex-row w-full justify-between items-center p-6 md:p-20 gap-10">
+    <div className="text-black flex flex-col-reverse md:flex-row w-full justify-between items-center p-6 md:p-20 gap-10">
       
       {/* Left Section */}
       <div className="md:w-2/4 text-center md:text-left">
@@ -21,7 +21,7 @@ const Home = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="mt-5 md:mt-8 text-black py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-white">
+          <button className="mt-5 md:mt-8 text-white py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-black">
             Resume View
           </button>
         </a>
@@ -29,12 +29,13 @@ const Home = () => {
 
       {/* Right Section (Image) */}
       <div className="flex justify-center">
-        <img 
-          className="w-44 h-44 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 object-contain rounded-full shadow-lg" 
-          src={avatarImg} 
-          alt="Avatar" 
-        />
-      </div>
+  <img 
+    className="w-44 h-44 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-full shadow-lg" 
+    src={avatarImg} 
+    alt="Avatar" 
+  />
+</div>
+
       
     </div>
   );
