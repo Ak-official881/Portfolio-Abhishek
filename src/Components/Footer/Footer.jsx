@@ -34,7 +34,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            https://www.linkedin.com/in/abhishek-3028192a3/.com
+            https://www.linkedin.com
           </a>
         </li>
         <li className="flex gap-2 items-center hover:text-gray-300 hover:scale-105 transition duration-300">
@@ -45,7 +45,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-           https://github.com/Ak-official881.com
+           https://github.com
           </a>
         </li>
       </ul>
